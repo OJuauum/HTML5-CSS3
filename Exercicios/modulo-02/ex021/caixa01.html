@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modelo de Caixa</title>
     <style>
-        h1 {
+        h1 { /* Box-level */
             background-color: lightgrey;
             height: 300px;
             width: 300px;
+
             border-width: 10px;
             border-style: solid;
             border-color: darkslategray;
+
+            border: 10px solid darkslategray; /* Forma simplificada do Border */
 
             padding-top: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
+
+            padding: 10px; /* Forma simplificada do padding */
+
+            margin-top: 20px;
+            margin-right: auto;
+            margin-bottom: 40px;
+            margin-left: auto;
+
+            margin: 20px auto 40px auto; /* Forma simplificada do margin - auto é usado para centralizar*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: salmon;
+
+            outline: 5px dashed salmon; /* Forma simplificada do outline */
         }
 
-        a {
-            border-width: 10px;
-            border-style: solid;
-            border-color: red;
+        a { /* inline-level */
+            border: 10px solid red;
         }
     </style>
 </head>
