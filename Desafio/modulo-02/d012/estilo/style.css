@@ -7,7 +7,7 @@
 
     --fonte-destaque:'Passion One', cursive;
     --fonte-poema: 'Sriracha', cursive;
-    --fonte-padrao: verdana, sans-serif;
+    --fonte-padrao: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 * {
@@ -17,22 +17,20 @@
 
 header {
     background-color: black;
-    max-height: 2000px;
-    min-height: 180px;
+    color: white;
+    text-align: center;
 }
 
 header h1 {
-    color: white;
-    text-align: center;
-    padding-top: 60px;
+    padding-top: 50px;
     font-family: var(--fonte-destaque);
     font-size: 10vw;
+    font-variant: small-caps;
 }
 
 header p {
-    color: white;
-    text-align: center;
-    font-family: var(--fonte-padrao)
+    font-family: var(--fonte-padrao);
+    padding-bottom: 50px;
 }
 
 header a {
@@ -46,8 +44,9 @@ header a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 40px 0px;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 section p {
@@ -60,7 +59,6 @@ section.imagem > p{
     background-color: rgba(0, 0, 0, 0.514);
     color: white;
     display: inline-block;
-    
 }
 
 section#img01 {
