@@ -30,6 +30,7 @@ span#burguer {
 span#burguer:hover {
     background-color: white;
     color: rgb(148, 148, 148);
+    border-radius: 50%;
 }
 
 menu {
